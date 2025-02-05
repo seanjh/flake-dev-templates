@@ -19,7 +19,7 @@
           packages = with pkgs; [
             (ruby_3_3.withPackages (
               ps: with ps; [
-                ruby-lsp
+                solargraph
                 rubocop
                 bundler
               ]
