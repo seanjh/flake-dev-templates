@@ -4,11 +4,11 @@
     {
       templates = {
         ruby = {
-          path = ./ruby;
+          path = ./templates/ruby;
           description = "Ruby development environment";
         };
         ruby-on-rails = {
-          path = ./ruby-on-rails;
+          path = ./templates/ruby-on-rails;
           description = "Ruby On Rails development environment";
         };
       };
