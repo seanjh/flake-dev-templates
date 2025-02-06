@@ -4,12 +4,7 @@ A collection of Nix flake templates for development environments.
 
 ## Prerequisites
 
-- [Nix package manager](https://nixos.org/download.html)
-- Flakes enabled in your Nix configuration
-
-To enable flakes, add this to your `~/.config/nix/nix.conf`:
-
-A collection of Nix flake templates for development environments.
+- [Nix](https://zero-to-nix.com/start/install/) w/ flakes
 
 ## Usage
 
@@ -21,3 +16,4 @@ nix flake init -t github:seanjh/flake-dev-templates#ruby
 
 # For a Ruby on Rails development environment
 nix flake init -t github:seanjh/flake-dev-templates#ruby-on-rails
+```
